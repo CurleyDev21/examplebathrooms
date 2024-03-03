@@ -1,0 +1,146 @@
+/* style.css */
+
+.gallery{
+    display: inline-block;
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+    
+body {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.logohome {
+width: 40; /* Adjust as needed */
+height: auto;
+}
+.logogallery {
+    width: 1200; /* Adjust as needed */
+    height: auto;
+    }
+h1 {
+    font-family: Arial, sans-serif; /* Change the font-family as per your preference */
+    color: #333; /* Change the color as per your preference */
+    font-size: 2em; /* Adjust the size as per your preference */
+    text-align: center; /* Aligns the text to the center */
+    padding: 10px; /* Adds some space around the text */
+    margin-bottom: 20px; /* Adds some space below the heading */
+    border-bottom: 2px solid #333; /* Adds a bottom border to the heading */
+    }
+h2 {
+font-family: Arial, sans-serif; /* Change the font-family as per your preference */
+color: #333; /* Change the color as per your preference */
+font-size: 2em; /* Adjust the size as per your preference */
+text-align: center; /* Aligns the text to the center */
+padding: 10px; /* Adds some space around the text */
+margin-bottom: 20px; /* Adds some space below the heading */
+border-bottom: 2px solid #333; /* Adds a bottom border to the heading */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; /* Distribute menu items evenly */
+    align-items: center; /* Vertically center menu items */
+    background-color: #f4f4f4; /* Set your desired background color */
+    padding: 10px; /* Add some padding for spacing */
+    border-bottom: 2px solid #e4e4e4fd;
+}
+.menu a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    font-weight: bold;
+    padding: 5px 10px; /* Add padding around menu items */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.menu a:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+.section {
+    margin: 20px 0;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul {
+display: table;
+margin: 0 auto;
+text-align: left;
+}
+.button-link1 {
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.button-link {
+        background-color: #0074D9;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .button-back {
+        background-color: #0074D9;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+.menu a:hover {
+background-color: #ddd; /* Changes the background color when you hover over the link */
+}
+*{
+    padding: 0;
+    margin: 20;
+    box-sizing: border-box;
+}
+.menu a {
+    color: #333; /* Change the color as per your preference */
+    text-decoration: none; /* Removes the underline */
+    padding: 10px 15px; /* Adds some space around the text */
+    background-color: #f4f4f4; /* Change the background color as per your preference */
+    border-radius: 5px; /* Makes the corners rounded */
+    transition: background-color 0.3s ease; /* Adds a transition effect when the background color changes */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .section p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .section a:hover {
+        text-decoration: underline;
+    }
